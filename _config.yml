@@ -3,4 +3,5 @@ description: >
   Lists of discord eating lemons in pain
 theme: minima
 collections:
-  - lemons
+  lemons:
+    output: true
