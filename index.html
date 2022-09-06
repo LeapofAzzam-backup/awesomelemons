@@ -2,5 +2,7 @@
 layout: default
 ---
 {% for file in site.lemons %}
-     <video src="{{ file.url }}" control />
+    <video control>
+        <source src="{{ file.url }}" />
+    </video>
 {% endfor %}
